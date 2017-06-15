@@ -1,0 +1,27 @@
+<div class="container">
+ <table>
+        <thead>
+        <h2>Scraped Articles</h2>
+          <tr>
+              {{!-- <th>Scraped Articles</th> --}}
+              
+          </tr>
+        </thead>
+
+        <tbody>
+
+        {{#each articles}}
+          <tr>
+            <td>{{this.title}} <button class="btn waves-effect waves-light" type="submit" name="action">Save
+    		<i class="material-icons right">send</i>
+ 		 </button></td>
+        
+  		 </tr>
+        {{/each}}
+        </tbody>
+      </table>
+
+
+
+
+</div>
